@@ -1,0 +1,37 @@
+body {
+    background-image: url('http://getwallpapers.com/wallpaper/full/8/d/b/979093-stars-desktop-backgrounds-1920x1080-for-tablet.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+  }
+
+.scroll {
+margin: 4px, 4px;
+padding: 4px;
+border-radius: 40px;
+width: 1200px;
+overflow-x: auto;
+overflow-y: hidden;
+white-space: nowrap;
+}
+.card-body{
+background: #F0F8FF;
+}
+.logo{
+    width: 80px;
+}
+button  {
+  background-color: transparent;
+  color: blue;
+  border: blue;
+  font-size: 20px;
+}
+.card{
+  border: none;
+  border-radius: 25px;
+}
+
+img .infoimg{
+width: 450px;
+height: 550px;
+}
