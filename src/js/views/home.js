@@ -10,6 +10,7 @@ export const Home = () => {
   return (
     <div className="container ">
       <div className="scroll">
+      <h1  className="title">Characters</h1>
         <div className="d-flex p-3 m-4">
           {store.characters
             ? store.characters.map((character, index) => (
@@ -30,6 +31,7 @@ export const Home = () => {
         </div>
       </div>
       <div className="scroll">
+      <h1  className="title">Planets</h1>
         <div className="d-flex p-3 m-4">
           {store.planets
             ? store.planets.map((planet, index) => (
