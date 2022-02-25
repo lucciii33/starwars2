@@ -6,6 +6,7 @@ import { Context } from "../store/appContext";
 export const Card = ({ data }) => {
   const { store, actions } = useContext(Context);
   const [icon, setIcon] = useState(false)
+  const [addFav, setAddFav] = useState(0)
   const params = useParams();
   return (
     <div className=" container">
@@ -49,6 +50,7 @@ export const Card = ({ data }) => {
                 ) : (
                   <i className="far fa-heart"></i>
                 )}
+               
               </button>
             </div>
           </div>

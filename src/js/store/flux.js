@@ -29,6 +29,17 @@ const getState = ({ getStore, getActions, setStore }) => {
     var deleteFavo = getStore().favorites;
     let delet = deleteFavo.filter((element)=>element!==fav)
     setStore({ favorites: delet });
+  },
+   incrementCount: (num) => {
+    var increment = getStore().favorites;
+    getActions(count + 1);
+    setStore({ favorites: increment });
+  },
+  
+  decrementCount : (num) => {
+    var increment = getStore().favorites;
+    getActions(count + 1);
+    setStore({ favorites: increment });
   }
 		
 	},
